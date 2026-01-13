@@ -22,6 +22,6 @@ class THEGAUTLET2_API IInteractable
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-	//UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
-	virtual void Interact(AActor* Interactor);
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category="Interactable")
+	void Interact(AActor* Interactor);
 };
