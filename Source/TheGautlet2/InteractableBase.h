@@ -28,7 +28,7 @@ protected:
 	UMaterialInstanceDynamic* DynamicMaterial;
 
 	UPROPERTY(EditDefaultsOnly, Category="Material")
-	FName ColorParameterName = "Color";
+	FName ColorParameterName = "ColorInt";
 
 	UPROPERTY(EditDefaultsOnly, Category="Material")
 	FLinearColor InitialColor;
