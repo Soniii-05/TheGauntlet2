@@ -24,7 +24,7 @@ protected:
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* Mesh;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Material")
 	UMaterialInstanceDynamic* DynamicMaterial;
 
 	UPROPERTY(EditDefaultsOnly, Category="Material")
